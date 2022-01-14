@@ -19,7 +19,6 @@ module.exports = {
         node {
           title
           handle
-          handle
           descriptionHtml
           products(first: 250) {
             edges {
