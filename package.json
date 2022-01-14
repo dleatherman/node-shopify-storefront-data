@@ -1,0 +1,24 @@
+{
+  "name": "shopify-data",
+  "version": "1.0.0",
+  "description": "A small node example to get Shopify products, collections, pages, articles, and shop info",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dleatherman/shopify-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dleatherman/shopify-data/issues"
+  },
+  "homepage": "https://github.com/dleatherman/shopify-data#readme",
+  "author": "Dan Leatherman",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^11.0.0",
+    "node-fetch-cache": "^3.0.3"
+  }
+}
