@@ -32,10 +32,10 @@ const getAllArticles = require('./api/articles');
   collections.map(collection => {
     if (collection.products.length > 0) {
       return collection.products.map(collectionProduct => {
-        const foundProduct = products.filter(product => {
+        const foundProduct = products.find(product => {
           return product.id === collectionProduct.id
         })
-        return foundProduct[0]
+        return foundProduct
       })
     } else {
       return collection
