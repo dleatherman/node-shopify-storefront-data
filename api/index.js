@@ -19,8 +19,6 @@ const getShopifyContent = async () => {
   const pages = await getAllPages()
   const articles = await getAllArticles()
 
-  // Do some sort of mapping to add product data to collections
-
   console.log(chalk.greenBright.bold(`SHOPIFY:SUCCESSFULLY RETRIEVED ${shop.name.toUpperCase()} INFO`))
   console.log(chalk.greenBright.bold(`SHOPIFY:SUCCESSFULLY RETRIEVED ${products.length} PRODUCT${products.length > 1 || products.length == 0 ? 'S' : ''}`))
   console.log(chalk.greenBright.bold(`SHOPIFY:SUCCESSFULLY RETRIEVED ${collections.length} COLLECTIONS`))
@@ -45,7 +43,11 @@ const getShopifyContent = async () => {
   console.log(chalk.greenBright.bold(`SHOPIFY:SUCCESSFULLY MAPPED PRODUCTS TO COLLECTIONS`))
 
   return {
-    shop, products, collections, pages, articles
+    shop,
+    products,
+    collections,
+    pages,
+    articles,
   }
 
 }
