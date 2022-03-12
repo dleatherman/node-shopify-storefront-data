@@ -1,5 +1,5 @@
 {
-  "name": "shopify-data",
+  "name": "node-shopify-storefront-data",
   "version": "1.0.0",
   "description": "A small node example to get Shopify products, collections, pages, articles, and shop info",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dleatherman/shopify-data.git"
+    "url": "git+https://github.com/dleatherman/node-shopify-storefront-data.git"
   },
   "bugs": {
-    "url": "https://github.com/dleatherman/shopify-data/issues"
+    "url": "https://github.com/dleatherman/node-shopify-storefront-data/issues"
   },
-  "homepage": "https://github.com/dleatherman/shopify-data#readme",
+  "homepage": "https://github.com/dleatherman/node-shopify-storefront-data#readme",
   "author": "Dan Leatherman",
   "license": "MIT",
   "dependencies": {
